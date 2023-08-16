@@ -17,7 +17,6 @@
           "timestamp": "2023-01-01T00:30:00",
           "temperature": 24
         },
-        // more predictions for furnace 1
       ]
     },
     {
@@ -37,9 +36,7 @@
           "timestamp": "2023-01-02T00:30:00",
           "temperature": -11
         },
-        // more predictions for furnace 2
       ]
     },
-    // more results for other furnaces and dates
   ]
 }

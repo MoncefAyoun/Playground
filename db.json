@@ -1,42 +1,64 @@
 {
-  "results": [
+  "predictions": [
     {
-      "start_date": "2023-01-01",
-      "end_date": "2023-01-02",
+      "timestamp": "2023-08-16T12:00:00",
       "furnace_number": 1,
-      "predictions": [
-        {
-          "timestamp": "2023-01-01T00:00:00",
-          "temperature": 23
-        },
-        {
-          "timestamp": "2023-01-01T00:15:00",
-          "temperature": 25
-        },
-        {
-          "timestamp": "2023-01-01T00:30:00",
-          "temperature": 24
-        },
-      ]
+      "temperature": 25.3
     },
     {
-      "start_date": "2023-01-02",
-      "end_date": "2023-01-03",
-      "furnace_number": 2,
-      "predictions": [
-        {
-          "timestamp": "2023-01-02T00:00:00",
-          "temperature": -12
-        },
-        {
-          "timestamp": "2023-01-02T00:15:00",
-          "temperature": -10
-        },
-        {
-          "timestamp": "2023-01-02T00:30:00",
-          "temperature": -11
-        },
-      ]
+      "timestamp": "2023-08-16T12:15:00",
+      "furnace_number": 1,
+      "temperature": 26.1
     },
+    {
+      "timestamp": "2023-08-16T12:30:00",
+      "furnace_number": 1,
+      "temperature": 24.8
+    },
+    {
+      "timestamp": "2023-08-16T12:45:00",
+      "furnace_number": 1,
+      "temperature": 23.6
+    },
+    {
+      "timestamp": "2023-08-16T12:00:00",
+      "furnace_number": 2,
+      "temperature": -10.4
+    },
+    {
+      "timestamp": "2023-08-16T12:15:00",
+      "furnace_number": 2,
+      "temperature": -9.8
+    },
+    {
+      "timestamp": "2023-08-16T12:30:00",
+      "furnace_number": 2,
+      "temperature": -11.2
+    },
+    {
+      "timestamp": "2023-08-16T12:45:00",
+      "furnace_number": 2,
+      "temperature": -12.6
+    },
+    {
+      "timestamp": "2023-08-16T12:00:00",
+      "furnace_number": 3,
+      "temperature": 50.7
+    },
+    {
+      "timestamp": "2023-08-16T12:15:00",
+      "furnace_number": 3,
+      "temperature": 51.2
+    },
+    {
+      "timestamp": "<EUGPSCoordinates>2023-08-16T12:30:00",
+      "<EUGPSCoordinates>furnace_number<EUGPSCoordinates>": <EUGPSCoordinates>3<EUGPSCoordinates>,
+      "<EUGPSCoordinates>temperature<EUGPSCoordinates>": <EUGPSCoordinates>49.8<EUGPSCoordinates>
+    },
+    {
+      "<EUGPSCoordinates>timestamp<EUGPSCoordinates>": "<EUGPSCoordinates>2023-08-16T12:45:00<EUGPSCoordinates>",
+      "<EUGPSCoordinates>furnace_number<EUGPSCoordinates>": <EUGPSCoordinates>3<EUGPSCoordinates>,
+      "<EUGPSCoordinates>temperature<EUGPSCoordinates>": <EUGPSCoordinates>48.6<EUGPSCoordinates>
+    }
   ]
 }

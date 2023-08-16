@@ -1,14 +1,45 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "results": [
+    {
+      "start_date": "2023-01-01",
+      "end_date": "2023-01-02",
+      "furnace_number": 1,
+      "predictions": [
+        {
+          "timestamp": "2023-01-01T00:00:00",
+          "temperature": 23
+        },
+        {
+          "timestamp": "2023-01-01T00:15:00",
+          "temperature": 25
+        },
+        {
+          "timestamp": "2023-01-01T00:30:00",
+          "temperature": 24
+        },
+        // more predictions for furnace 1
+      ]
+    },
+    {
+      "start_date": "2023-01-02",
+      "end_date": "2023-01-03",
+      "furnace_number": 2,
+      "predictions": [
+        {
+          "timestamp": "2023-01-02T00:00:00",
+          "temperature": -12
+        },
+        {
+          "timestamp": "2023-01-02T00:15:00",
+          "temperature": -10
+        },
+        {
+          "timestamp": "2023-01-02T00:30:00",
+          "temperature": -11
+        },
+        // more predictions for furnace 2
+      ]
+    },
+    // more results for other furnaces and dates
+  ]
 }
